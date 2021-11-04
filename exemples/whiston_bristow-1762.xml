@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A <lb/> cataloguqe <lb/> if a <lb/> genuine and entire collection of a
+                     <lb/> gentleman lately deceaſed ; <lb/> consisting of <lb/> Roman, British,
+                     Saxon, and English <lb/> Coins and Medals <lb/> in <lb/> gold, silver, and
+                     copper ; <lb/> and a cabinet for coins: <lb/> which will be sold by auction,
+                     <lb/> by W. Bristow, ...</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Whiston Bristow</publisher>
+                  <pubPlace>
+                     <address>
+                        <country key="UK"/>
+                        <settlement type="city">Londres</settlement>
+                     </address>
+                  </pubPlace>
+                  <date when-iso="1762">1762</date>
+                  <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k3044492j/f12.item"
+                     >Gallica Bibliothèque nationale de France</distributor>
+                  <availability>
+                     <licence
+                        target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                        >Domaine public</licence>
+                  </availability>
+               </publicationStmt>
+               <seriesStmt>
+                  <title>A <lb/> cataloguqe <lb/> if a <lb/> genuine and entire collection of a
+                     <lb/> gentleman lately deceaſed ; <lb/> consisting of <lb/> Roman, British,
+                     Saxon, and English <lb/> Coins and Medals <lb/> in <lb/> gold, silver, and
+                     copper ; <lb/> and a cabinet for coins: <lb/> which will be sold by auction,
+                     <lb/> by W. Bristow, ...</title>
+                  <biblScope unit="volume">1</biblScope>
+               </seriesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Catalogue,</head>
+            <div>
+               <head>Copper and Brass<pc>.</pc></head>
+               <div>
+                  <head>Roman Small<pc>.</pc></head>
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <num>1</num>
+                     </catalogueItem>
+                     <catalogueDesc>
+                        <decoDesc>
+                           <ab>Gallienus<pc>,</pc> Tetricus Senior<pc/> Junior<pc>,</pc> Claudius
+                                 Vic<pc>-</pc>torinus, &amp;c<pc>.</pc></ab>
+                        </decoDesc>
+                        <measure type="currency">430</measure>
+                     </catalogueDesc>
+                  </catalogueEntry>
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <num>2</num>
+                     </catalogueItem>
+                     <catalogueDesc>
+                        <decoDesc>
+                           <ab>From Pompey to Conſtantine</ab>
+                        </decoDesc>
+                        <measure type="currency">300</measure>
+                     </catalogueDesc>
+                  </catalogueEntry>
+                  <!-- ... -->
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <metamark>*</metamark>
+                        <num>6</num>
+                     </catalogueItem>
+                     <catalogueDesc>
+                        <decoDesc>
+                           <ab>Do<pc>.</pc></ab>
+                        </decoDesc>
+                        <measure type="currency">50</measure>
+                     </catalogueDesc>
+                  </catalogueEntry>
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <num>7</num>
+                     </catalogueItem>
+                     <catalogueDesc>
+                        <decoDesc>
+                           <ab>An Otho<pc>,</pc></ab>
+                        </decoDesc>
+                        <condition><ab>in very good preſervation</ab></condition>
+                        <measure type="currency">1</measure>
+                     </catalogueDesc>
+                  </catalogueEntry>
+               </div>
+               <!-- https://gallica.bnf.fr/ark:/12148/bpt6k3044492j/f14.item -->
+               <div>
+                  <!-- Entrée qui pose problème à cause des informations de temps -->
+                  <head>Ancient British<pc>.</pc></head>
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <num>36</num>
+                     </catalogueItem>
+                     <catalogueDesc>
+                        <objectDesc>
+                           <ab>
+                              <num>One</num>
+                              <material>Gold</material>
+                              <origDate>very ancient</origDate>
+                           </ab>
+                        </objectDesc>
+                        <measure type="currency">1</measure>
+                     </catalogueDesc>
+                  </catalogueEntry>
+                  <!-- ... -->
+               </div>
+               <div>
+                  <head>English silver coins<pc>.</pc></head>
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <num>44</num>
+                     </catalogueItem>
+                     <catalogueDesc>
+                        <decoDesc>
+                           <ab>WIlliam the Cnqueror<pc>,</pc> fulle faced<pc>,</pc> with the ſword - do. with labels - do. ſide faced to the right</ab>
+                        </decoDesc>
+                        <measure type="currency">3</measure>
+                     </catalogueDesc>
+                  </catalogueEntry>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
