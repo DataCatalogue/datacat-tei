@@ -117,25 +117,25 @@
             
             <elementSpec ident="decoDesc" module="msdescription" mode="change">
                <content>
-                  <elementRef key="ab"/>
+                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
                </content>
             </elementSpec>
            
             <elementSpec ident="acquisition" module="msdescription" mode="change">
                <content>
-                  <elementRef key="ab"/>
+                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
                </content>
             </elementSpec>
             
             <elementSpec ident="provenance" module="msdescription" mode="change">
                <content>
-                  <elementRef key="ab"/>
+                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
                </content>
             </elementSpec>
             
             <elementSpec ident="objectDesc" module="msdescription" mode="change">
                <content>
-                  <elementRef key="ab"/>
+                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
                </content>
             </elementSpec>
             

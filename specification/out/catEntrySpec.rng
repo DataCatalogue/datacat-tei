@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-11-03T11:50:33Z. .
+Schema generated from ODD source 2021-11-04T15:02:23Z. .
 TEI Edition: Version 4.0.0. Last updated on
 	13th February 2020, revision ccd19b0ba
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -10916,7 +10916,9 @@ The element <name/> may appear once only
    <define name="tei_objectDesc">
       <element name="objectDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a description of the physical components making up the object which is being described. [10.7.1. Object Description]</a:documentation>
-         <ref name="tei_ab"/>
+         <zeroOrMore>
+            <ref name="tei_ab"/>
+         </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <optional>
             <attribute name="form">
@@ -11099,7 +11101,9 @@ The element <name/> may appear once only
    <define name="tei_decoDesc">
       <element name="decoDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(decoration description) contains a description of the decoration of a manuscript or other object, either as in paragraphs, or as one or more <code xmlns="http://www.w3.org/1999/xhtml">&lt;decoNote&gt;</code> elements. [10.7.3. Bindings, Seals, and Additional Material]</a:documentation>
-         <ref name="tei_ab"/>
+         <zeroOrMore>
+            <ref name="tei_ab"/>
+         </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <empty/>
       </element>
@@ -11270,7 +11274,9 @@ The element <name/> may appear once only
    <define name="tei_provenance">
       <element name="provenance">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript, manuscript part, or other object after its creation but before its acquisition. [10.8. History]</a:documentation>
-         <ref name="tei_ab"/>
+         <zeroOrMore>
+            <ref name="tei_ab"/>
+         </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.datable.attributes"/>
          <ref name="tei_att.typed.attributes"/>
@@ -11280,7 +11286,9 @@ The element <name/> may appear once only
    <define name="tei_acquisition">
       <element name="acquisition">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains any descriptive or other information concerning the process by which a manuscript or manuscript part or other object entered the holding institution. [10.8. History]</a:documentation>
-         <ref name="tei_ab"/>
+         <zeroOrMore>
+            <ref name="tei_ab"/>
+         </zeroOrMore>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.datable.attributes"/>
          <empty/>
