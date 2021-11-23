@@ -80,15 +80,6 @@
                <content>
                   <alternate minOccurs="1" maxOccurs="unbounded">
                      <textNode/>
-                     <elementRef key="ab"/>
-                     <elementRef key="listObject"/>
-                     <elementRef key="decoDesc"/>
-                     <elementRef key="objectDesc"/>
-                     <elementRef key="bibl"/>
-                     <elementRef key="pc"/>
-                     <elementRef key="condition"/>
-                     <elementRef key="history"/>
-                     <elementRef key="measure"/>
                      <classRef key="model.catalogueDescPart"/>
                      <classRef key="model.global"/>
                      <classRef key="model.ptrLike"/>
@@ -107,6 +98,16 @@
                      <elementRef key="num"/>
                      <elementRef key="pc"/>
                      <elementRef key="metamark"/>
+                     <elementRef key="ab"/>
+                     <elementRef key="listObject"/>
+                     <elementRef key="decoDesc"/>
+                     <elementRef key="objectDesc"/>
+                     <elementRef key="bibl"/>
+                     <elementRef key="pc"/>
+                     <!-- On donne la possibilité d'utiliser <condition> en dehors d'objectDesc, peut-être n'est-ce pas adapté pour un encodage fin -->
+                     <elementRef key="condition"/>
+                     <elementRef key="history"/>
+                     <elementRef key="measure"/>
                      <elementRef key="catalogueDesc"/>
                      <classRef key="model.catalogueDescPart"/>
                      <classRef key="model.global"/>
@@ -130,31 +131,6 @@
             <elementSpec ident="provenance" module="msdescription" mode="change">
                <content>
                   <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
-               </content>
-            </elementSpec>
-            
-            <elementSpec ident="objectDesc" module="msdescription" mode="change">
-               <content>
-                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
-               </content>
-            </elementSpec>
-            
-            <!-- On ajoute la possibilité d'avoir un <ab> dans bibl -->
-            <elementSpec ident="bibl" module="core" mode="change">
-               <content>
-                  <alternate minOccurs="0"
-                     maxOccurs="unbounded">
-                     <textNode/>
-                     <classRef key="model.gLike"/>
-                     <classRef key="model.highlighted"/>
-                     <classRef key="model.pPart.data"/>
-                     <classRef key="model.pPart.edit"/>
-                     <classRef key="model.segLike"/>
-                     <classRef key="model.ptrLike"/>
-                     <classRef key="model.biblPart"/>
-                     <classRef key="model.global"/>
-                     <classRef key="model.pLike"/>
-                  </alternate>
                </content>
             </elementSpec>
             
