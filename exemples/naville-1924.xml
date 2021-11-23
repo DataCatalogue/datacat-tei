@@ -1,136 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title/>
-         </titleStmt>
-         <publicationStmt>
-            <p/>
-         </publicationStmt>
-         <sourceDesc>
-            <biblFull>
-               <titleStmt>
-                  <title>Monnaies Romaines Antiques en or, argent et bronze</title>
-                  <title>Catalogue illustré de 64 planches</title>
-               </titleStmt>
-               <publicationStmt>
-                  <publisher>Naville &amp; Cie</publisher>
-                  <pubPlace>
-                     <address>
-                        <country key="CH"/>
-                        <settlement type="city">Genève</settlement>
-                        <addrLine>Agence des journaux</addrLine>
-                        <street><num>6</num>&amp;<num>9</num> rue Pécolat</street>
-                     </address>
-                  </pubPlace>
-                  <date when-iso="1924">1924</date>
-                  <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k9780571h/f14.item"
-                     >Gallica Bibliothèque nationale de France</distributor>
-                  <availability>
-                     <licence
-                        target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
-                        >Domaine public</licence>
-                  </availability>
-               </publicationStmt>
-               <seriesStmt>
-                  <title>Monnaies Romaines Antiques en or, argent et bronze</title>
-                  <biblScope unit="collection">Collection Clarence S. Bement de Philadelphie (U. S.
-                     A.)</biblScope>
-                  <biblScope unit="volume">VIII</biblScope>
-               </seriesStmt>
-            </biblFull>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div>
-            <head>Monnaies de la République romaine</head>
-            <bibl>(B. = Babelon<pc>,</pc> Ernest<pc>,</pc> Monnaies de la République
-                  Romaine<pc>.</pc> 2 vol. Paris 1885<pc>.</pc>)</bibl>
-            <ab><pc>-</pc> Toutes les pièces<pc>,</pc> sauf indication contraire<pc>,</pc> sont des
-               deniers d'argent<pc>.</pc><pc>-</pc></ab>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Monnaies Romaines Antiques en or, argent et bronze</title>
+                        <title>Catalogue illustré de 64 planches</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Naville &amp; Cie</publisher>
+                        <pubPlace>
+                            <address>
+                                <country key="CH"/>
+                                <settlement type="city">Genève</settlement>
+                                <addrLine>Agence des journaux</addrLine>
+                                <street><num>6</num>&amp;<num>9</num> rue Pécolat</street>
+                            </address>
+                        </pubPlace>
+                        <date when-iso="1924">1924</date>
+                        <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k9780571h/f14.item"
+                            >Gallica Bibliothèque nationale de France</distributor>
+                        <availability>
+                            <licence
+                                target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                                >Domaine public</licence>
+                        </availability>
+                    </publicationStmt>
+                    <seriesStmt>
+                        <title>Monnaies Romaines Antiques en or, argent et bronze</title>
+                        <biblScope unit="collection">Collection Clarence S. Bement de Philadelphie
+                            (U. S. A.)</biblScope>
+                        <biblScope unit="volume">VIII</biblScope>
+                    </seriesStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
             <div>
-               <head>Monnaies romano<pc>-</pc>campaniennes <lb/> 342<pc>-</pc>211 av.
-                  J.<pc>-</pc>C.</head>
-               <catalogueEntry>
-                  <catalogueItem>
-                     <metamark>*</metamark>
-                     <num>33</num>
-                  </catalogueItem>
-                  <catalogueDesc>
-                     <decoDesc>
-                        <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à d.<pc>,</pc> tenant une fleur dans son bec<pc>;</pc> derrière<pc>,</pc> ··<pc>.</pc></ab>
-                     </decoDesc>
-                     <bibl><ab>B. I<pc>,</pc> p. 20, 20<pc>.</pc></ab></bibl>
-                     <history>
-                        <provenance><ab>Sambon<pc>,</pc> Italie<pc>,</pc> 1158<pc>.</pc></ab></provenance>
-                     </history>
-                     <objectDesc>
-                        <ab>
-                           <material>AE</material>
-                           <measure>Mm. 30</measure>
-                           <pc>,</pc>
-                           <measure>gr. 21,36</measure>
-                           <pc>.</pc>
-                        </ab>
-                     </objectDesc>
-                     <condition><ab>Pat. Très beau<pc>.</pc></ab></condition>
-                  </catalogueDesc>
-               </catalogueEntry>
-               <catalogueEntry>
-                  <catalogueItem>
-                     <metamark>*</metamark>
-                     <num>34</num>
-                  </catalogueItem>
-                  <!-- changer seg en ab -->
-                  <catalogueDesc>
-                     <decoDesc>
-                        <ab>Tête imberbe janiforme<pc>,</pc> coiffée de la stéphané<pc>.</pc> R.
-                           Jupiter tenant un sceptre et lançant le foudre<pc>,</pc> à
-                           demi-nu<pc>,</pc> dans un quadrige au galop à d.<pc>,</pc> conduit par
-                           la Victoire<pc>.</pc></ab>
-                     </decoDesc>
-                     <bibl><ab>B. I<pc>,</pc> p. 23, 26<pc>.</pc><lb/> EI<pc>.</pc></ab></bibl>
-                     <objectDesc>
-                        <ab>
-                           <measure>Mm. 15</measure>
-                           <pc>,</pc>
-                           <measure>gr. 2,79</measure>
-                           <pc>.</pc>
-                        </ab>
-                     </objectDesc>
-                     <!-- condition: pas de seg ? Plein texte directement ? -->
-                     <condition><ab>Superbe<pc>.</pc></ab></condition>
-                     <history>
-                        <acquisition><ab><pc>-</pc>Vente Mann<pc>,</pc> Londres
-                           1917<pc>.</pc><pc>-</pc></ab></acquisition>
-                     </history>
-                  </catalogueDesc>
-               </catalogueEntry>
-               <catalogueEntry>
-                  <catalogueItem>
-                     <metamark>*</metamark>
-                     <num>35</num>
-                  </catalogueItem>
-                  <catalogueDesc>
-                     <decoDesc>
-                        <ab>Tête imberbe d'Hercule à d.<pc>,</pc> coiffée de la peau de lion<pc>;</pc> au-dessous<pc>,</pc> la massue<pc>.</pc> R<pc>.</pc> ROMA· Pégase au galop à d. Derrière lui<pc>,</pc> une massue<pc>.</pc></ab>
-                     </decoDesc>
-                     <bibl><ab>B. I.<pc>,</pc> p. 29<pc>,</pc> 41<pc>.</pc></ab></bibl>
-                     <objectDesc>
-                        <ab><measure>Mm. 20</measure><pc>,</pc> <measure>gr. 7<pc>,</pc>40</measure><pc>.</pc></ab>
-                     </objectDesc>
-                     <condition><ab>Patine et conservation magnifiques<pc>.</pc></ab></condition>
-                  </catalogueDesc>
-               </catalogueEntry>
+                <head>Aes Grave</head>
+                <ab><bibl><pc>(</pc>H. = Haeberlin<pc>,</pc> Dr E. J.<pc>,</pc> Aes Grave. Francfort
+                        s/M. 1910<pc>.</pc>
+                        <lb/> G. = Garrucci<pc>,</pc> P. R.<pc>,</pc> Le monete dell'Italia antica.
+                        Roma 1885.<pc>)</pc></bibl></ab>
+                <catalogueEntry>
+                    <catalogueItem>
+                        <num>1</num>
+                        <history>
+                            <origin><placeName>Latium et Campagnie<pc>.</pc></placeName> 1<pc>.</pc>
+                                <placeName>Rome</placeName><pc>.</pc> Série librale
+                                    urbaine<pc>,</pc> de la première et deuxième
+                                    période<pc>,</pc><date>env. 335-186 av. J.C.</date></origin>
+                        </history>
+                        <ab>As.</ab>
+                        <decoDesc>
+                            <ab>Tête de Janus<pc>.</pc> R<pc>.</pc> Proue à d. Au-dessus |·</ab>
+                        </decoDesc>
+                        <bibl>H. pl. 14-16<pc>.</pc></bibl>
+                        <objectDesc>
+                            <ab>
+                                <measure>Mm. 63</measure><pc>,</pc>
+                                <measure>gr. 262,20</measure><pc>.</pc>
+                            </ab>
+                        </objectDesc>
+                        <condition>Pat. T. B.</condition>
+                    </catalogueItem>
+                </catalogueEntry>
+                <!-- Des éléments TEI semblent devoir être répétés plusieurs fois selon la typologie des notices (objectDesc notamment) -->
+                <!-- ... -->
+
+                <!-- Entrée 33 encodage 1 : objectDesc simple, à plat. -->
+                <catalogueEntry>
+                    <catalogueItem>
+                        <metamark>*</metamark>
+                        <num>33</num>
+                        <decoDesc>
+                            <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A
+                                    l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à
+                                    d.<pc>,</pc> tenant une fleur dans son bec<pc>;</pc>
+                                    derrière<pc>,</pc> ··<pc>.</pc></ab>
+                        </decoDesc>
+                        <ab><bibl>B. I<pc>,</pc> p. 20, 20<pc>.</pc></bibl></ab>
+                        <history>
+                            <provenance>
+                                <ab>Sambon<pc>,</pc> Italie<pc>,</pc> 1158<pc>.</pc></ab>
+                            </provenance>
+                        </history>
+                        <objectDesc>
+                            <ab>
+                                <material>AE</material>
+                                <measure>Mm. 30</measure>
+                                <pc>,</pc>
+                                <measure>gr. 21,36</measure>
+                                <pc>.</pc>
+                            </ab>
+                        </objectDesc>
+                        <condition><ab>Pat. Très beau<pc>.</pc></ab></condition>
+                    </catalogueItem>
+                </catalogueEntry>
+                <!-- Entrée 33 encodage 2 : objectDesc plus fin -->
+                <catalogueEntry>
+                    <catalogueItem>
+                        <metamark>*</metamark>
+                        <num>33</num>
+                        <decoDesc>
+                            <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A
+                                    l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à
+                                    d.<pc>,</pc> tenant une fleur dans son bec<pc>;</pc>
+                                    derrière<pc>,</pc> ··<pc>.</pc></ab>
+                        </decoDesc>
+                        <ab><bibl>B. I<pc>,</pc> p. 20, 20<pc>.</pc></bibl></ab>
+                        <history>
+                            <provenance>
+                                <ab>Sambon<pc>,</pc> Italie<pc>,</pc> 1158<pc>.</pc></ab>
+                            </provenance>
+                        </history>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <ab>
+                                        <material>AE</material>
+                                        <measure>Mm. 30</measure>
+                                        <pc>,</pc>
+                                        <measure>gr. 21,36</measure>
+                                        <pc>.</pc>
+                                    </ab>
+                                </support>
+                                <condition>
+                                    <ab>Pat. Très beau<pc>.</pc></ab>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </catalogueItem>
+                </catalogueEntry>
             </div>
-         </div>
-         <!-- note : doit-on indiquer les <lb> ? -->
-         <!-- Est-ce qu'on garde <seg> ? -->
-         <!-- Quels attributs ? -->
-      </body>
-   </text>
+        </body>
+    </text>
 </TEI>
