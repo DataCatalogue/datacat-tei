@@ -107,11 +107,13 @@
                         <condition><ab>Pat. Très beau<pc>.</pc></ab></condition>
                     </catalogueItem>
                 </catalogueEntry>
-                <!-- Entrée 33 encodage 2 : objectDesc plus fin -->
+                <!-- Entrée 33 encodage 2 : objectDesc plus fin, et <ab> pour tous les segments -->
                 <catalogueEntry>
                     <catalogueItem>
-                        <metamark>*</metamark>
-                        <num>33</num>
+                        <ab>
+                            <metamark>*</metamark>
+                            <num>33</num>
+                        </ab>
                         <decoDesc>
                             <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A
                                     l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à
