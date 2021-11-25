@@ -60,50 +60,42 @@
                   <catalogueEntry>
                      <catalogueItem>
                         <num>1</num>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <decoDesc>
                            <ab>Gallienus<pc>,</pc> Tetricus Senior<pc/> Junior<pc>,</pc> Claudius
                                  Vic<pc>-</pc>torinus, &amp;c<pc>.</pc></ab>
                         </decoDesc>
                         <measure type="currency">430</measure>
-                     </catalogueDesc>
+                     </catalogueItem>
                   </catalogueEntry>
                   <catalogueEntry>
                      <catalogueItem>
                         <num>2</num>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <decoDesc>
                            <ab>From Pompey to Conſtantine</ab>
                         </decoDesc>
                         <measure type="currency">300</measure>
-                     </catalogueDesc>
+                     </catalogueItem>
                   </catalogueEntry>
                   <!-- ... -->
                   <catalogueEntry>
                      <catalogueItem>
                         <metamark>*</metamark>
                         <num>6</num>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <decoDesc>
                            <ab>Do<pc>.</pc></ab>
                         </decoDesc>
                         <measure type="currency">50</measure>
-                     </catalogueDesc>
+                     </catalogueItem>
                   </catalogueEntry>
                   <catalogueEntry>
                      <catalogueItem>
                         <num>7</num>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <decoDesc>
                            <ab>An Otho<pc>,</pc></ab>
                         </decoDesc>
                         <condition><ab>in very good preſervation</ab></condition>
                         <measure type="currency">1</measure>
-                     </catalogueDesc>
+                     </catalogueItem>
                   </catalogueEntry>
                </div>
                <!-- https://gallica.bnf.fr/ark:/12148/bpt6k3044492j/f14.item -->
@@ -113,17 +105,18 @@
                   <catalogueEntry>
                      <catalogueItem>
                         <num>36</num>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <objectDesc>
-                           <ab>
-                              <num>One</num>
-                              <material>Gold</material>
-                              <origDate>very ancient</origDate>
-                           </ab>
+                           <supportDesc>
+                              <support>
+                                 <ab>
+                                    <num>One</num>
+                                    <material>Gold</material>
+                                    <origDate>very ancient</origDate>
+                                 </ab></support>
+                           </supportDesc>
                         </objectDesc>
                         <measure type="currency">1</measure>
-                     </catalogueDesc>
+                     </catalogueItem>
                   </catalogueEntry>
                   <!-- ... -->
                </div>
@@ -132,13 +125,12 @@
                   <catalogueEntry>
                      <catalogueItem>
                         <num>44</num>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <decoDesc>
-                           <ab>WIlliam the Cnqueror<pc>,</pc> fulle faced<pc>,</pc> with the ſword - do. with labels - do. ſide faced to the right</ab>
+                           <ab>WIlliam the Cnqueror<pc>,</pc> fulle faced<pc>,</pc> with the ſword -
+                              do. with labels - do. ſide faced to the right</ab>
                         </decoDesc>
                         <measure type="currency">3</measure>
-                     </catalogueDesc>
+                        </catalogueItem>
                   </catalogueEntry>
                </div>
             </div>

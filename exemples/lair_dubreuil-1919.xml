@@ -51,8 +51,6 @@
                      <catalogueItem>
                         <num>1</num>
                         <pc>-</pc>
-                     </catalogueItem>
-                     <catalogueDesc>
                         <objectDesc>
                            <ab>Service d'argenterie de table<pc>,</pc></ab>
                         </objectDesc>
@@ -66,69 +64,69 @@
                                  <objectName>Louche<pc>;</pc></objectName>
                               </objectIdentifier>
                            </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Vingt-quatre couverts de table<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Vig-quatre couverts à entremets<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Douze petits couverts à dessert<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Deux uillers à ragoût<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Deux cuillers à sauce<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Pince à asperges<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Truelle à poissons<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Quatre cuillers à sel, cuiller à moutarde<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Douze cuillers à café<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Six petites cuillers à thé<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Pelle à beurre<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <object>
-                                 <objectIdentifier>
-                                    <objectName>Pince et cuiller à sucre<pc>;</pc></objectName>
-                                 </objectIdentifier>
-                              </object>
-                              <!-- And the list goes on. -->
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Vingt-quatre couverts de table<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Vig-quatre couverts à entremets<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Douze petits couverts à dessert<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Deux uillers à ragoût<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Deux cuillers à sauce<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Pince à asperges<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Truelle à poissons<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Quatre cuillers à sel, cuiller à moutarde<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Douze cuillers à café<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Six petites cuillers à thé<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Pelle à beurre<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Pince et cuiller à sucre<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <!-- And the list goes on. -->
                         </listObject>
-                     </catalogueDesc>
+                     </catalogueItem>
                   </catalogueEntry>
                </div>
             </div>
