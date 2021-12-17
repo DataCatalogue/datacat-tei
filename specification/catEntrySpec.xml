@@ -26,7 +26,7 @@
          </notesStmt>
          <sourceDesc>
             <p>created on Friday 20th March 2020 11:01:40 AM</p>
-            <p>Updated during october and november 2021</p>
+            <p>updated during october and november 2021</p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -35,8 +35,8 @@
          <divGen type="toc"/>
       </front>
       <body>
-         <note><att>type</att> on <gi>catEntry</gi> to indicate what category of object the entry is about (e.g.
-            saleItem, painting, etc. to be refined)</note>
+         <note><att>type</att> on <gi>catEntry</gi> to indicate what category of object the entry is
+            about (e.g. saleItem, painting, etc. to be refined)</note>
          <schemaSpec ident="catalogues" docLang="en" prefix="tei_" xml:lang="en">
             <moduleRef key="core" except=""/>
             <moduleRef key="tei" except=""/>
@@ -47,13 +47,13 @@
             <moduleRef key="msdescription" except=""/>
             <moduleRef key="transcr" except=""/>
             <moduleRef key="linking" except=""/>
-            
+
             <moduleSpec ident="catalogues"/>
-            
+
             <elementSpec ident="catalogueEntry" module="catalogues">
                <gloss xml:lang="en">catalogue entry</gloss>
-               <desc xml:lang="en">contains a single structured entry in any kind of catalogue, exhibition or
-                  sales.</desc>
+               <desc xml:lang="en">contains a single structured entry in any kind of catalogue,
+                  exhibition or sales.</desc>
                <classes>
                   <memberOf key="att.global"/>
                   <memberOf key="att.typed"/>
@@ -62,6 +62,8 @@
                </classes>
                <content>
                   <alternate minOccurs="1" maxOccurs="unbounded">
+                     <elementRef key="head"/>
+                     <elementRef key="ab"/>
                      <elementRef key="catalogueDesc"/>
                      <elementRef key="catalogueItem"/>
                      <elementRef key="catalogueEntry"/>
@@ -71,9 +73,10 @@
                   </alternate>
                </content>
             </elementSpec>
-            
+
             <elementSpec ident="catalogueDesc" module="catalogues">
-               <desc xml:lang="en">provides descriptive information about a catalogue entry or item.</desc>
+               <desc xml:lang="en">provides descriptive information about a catalogue entry or
+                  item.</desc>
                <classes>
                   <memberOf key="att.global"/>
                </classes>
@@ -86,7 +89,7 @@
                   </alternate>
                </content>
             </elementSpec>
-            
+
             <elementSpec ident="catalogueItem" module="catalogues">
                <desc xml:lang="en">describes en elementary item in a catalogue.</desc>
                <classes>
@@ -95,19 +98,6 @@
                <content>
                   <alternate minOccurs="1" maxOccurs="unbounded">
                      <textNode/>
-                     <elementRef key="num"/>
-                     <elementRef key="pc"/>
-                     <elementRef key="metamark"/>
-                     <elementRef key="ab"/>
-                     <elementRef key="listObject"/>
-                     <elementRef key="decoDesc"/>
-                     <elementRef key="objectDesc"/>
-                     <elementRef key="bibl"/>
-                     <elementRef key="pc"/>
-                     <!-- On donne la possibilité d'utiliser <condition> en dehors d'objectDesc, peut-être n'est-ce pas adapté pour un encodage fin -->
-                     <elementRef key="condition"/>
-                     <elementRef key="history"/>
-                     <elementRef key="measure"/>
                      <elementRef key="catalogueDesc"/>
                      <classRef key="model.catalogueDescPart"/>
                      <classRef key="model.global"/>
@@ -115,51 +105,108 @@
                   </alternate>
                </content>
             </elementSpec>
-            
-            <elementSpec ident="decoDesc" module="msdescription" mode="change">
+
+            <elementSpec ident="supportDesc" module="msdescription" mode="change">
                <content>
-                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
+                  <!-- supportDesc children do not have a predefined order anymore -->
+                  <alternate minOccurs="0" maxOccurs="unbounded">
+                     <classRef key="model.pLike"/>
+                     <elementRef key="support"/>
+                     <elementRef key="extent"/>
+                     <elementRef key="foliation"/>
+                     <elementRef key="collation"/>
+                     <elementRef key="condition"/>
+                  </alternate>
                </content>
             </elementSpec>
-           
-            <elementSpec ident="acquisition" module="msdescription" mode="change">
-               <content>
-                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
-               </content>
-            </elementSpec>
-            
-            <elementSpec ident="provenance" module="msdescription" mode="change">
-               <content>
-                  <elementRef key="ab" minOccurs="0" maxOccurs="unbounded"/>
-               </content>
-            </elementSpec>
-            
+
             <classSpec type="model" ident="model.catalogueDescPart" module="catalogues"/>
             
+            <!-- Elements from the msdescription module are added to catalogueDescPart here -->
+
+            <elementSpec ident="num" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="pc" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="metamark" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="measure" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="history" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="pc" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="bibl" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="decoDesc" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="listObject" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
+            <elementSpec ident="objectDesc" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+
             <elementSpec ident="title" mode="change">
                <classes mode="change">
                   <memberOf key="model.catalogueDescPart"/>
                </classes>
             </elementSpec>
-            
+
             <elementSpec ident="author" mode="change">
                <classes mode="change">
                   <memberOf key="model.catalogueDescPart" mode="add"/>
                </classes>
             </elementSpec>
-            
+
             <classSpec type="model" ident="model.personLike" mode="change">
                <classes mode="change">
                   <memberOf key="model.catalogueDescPart" mode="add"/>
                </classes>
             </classSpec>
-            
+
             <classSpec type="model" ident="model.nameLike.agent" mode="change">
                <classes mode="change">
                   <memberOf key="model.catalogueDescPart" mode="add"/>
                </classes>
             </classSpec>
-            
          </schemaSpec>
       </body>
    </text>
