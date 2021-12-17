@@ -52,7 +52,7 @@
    <text>
       <body>
          <div>
-            <head>Catalogue,</head>
+            <head>Catalogue</head>
             <div>
                <head>Copper and Brass<pc>.</pc></head>
                <div>
@@ -93,7 +93,11 @@
                         <decoDesc>
                            <ab>An Otho<pc>,</pc></ab>
                         </decoDesc>
-                        <condition><ab>in very good preſervation</ab></condition>
+                        <objectDesc>
+                           <supportDesc>
+                              <condition>in very good preſervation</condition>
+                           </supportDesc>
+                        </objectDesc>
                         <measure type="currency">1</measure>
                      </catalogueItem>
                   </catalogueEntry>
@@ -130,7 +134,7 @@
                               do. with labels - do. ſide faced to the right</ab>
                         </decoDesc>
                         <measure type="currency">3</measure>
-                        </catalogueItem>
+                     </catalogueItem>
                   </catalogueEntry>
                </div>
             </div>

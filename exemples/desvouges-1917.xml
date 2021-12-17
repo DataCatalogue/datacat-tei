@@ -57,30 +57,25 @@
                   <catalogueItem>
                      <num>1<pc>-</pc></num>
                      <history>
-                        <provenance>
-                           <ab>Arras<pc>.</pc></ab>
-                        </provenance>
+                        <provenance>Arras<pc>.</pc></provenance>
                      </history>
                      <objectDesc>
                         <supportDesc>
-                           <support>
-                              <ab>Trois étiquettes à liqueurs en ancienne porcelaine tendre
-                                    blanche<pc>,</pc> avec inscriptions en bleu<pc>.</pc></ab>
-                              <ab><measure>Larg.<pc>,</pc> 47
-                                       millim.</measure><pc>;</pc><measure>haut.<pc>,</pc> 3
-                                    cent.</measure></ab></support>
+                           <support> Trois étiquettes à liqueurs en ancienne porcelaine tendre
+                                 blanche<pc>,</pc> avec inscriptions en bleu<pc>.</pc>
+                              <measure>Larg.<pc>,</pc> 47
+                                    millim.</measure><pc>;</pc><measure>haut.<pc>,</pc> 3
+                                 cent.</measure></support>
                         </supportDesc>
                      </objectDesc>
                   </catalogueItem>
-                  <catalogueDesc> </catalogueDesc>
                </catalogueEntry>
+               <!-- en chantier -->
                <catalogueEntry>
                   <catalogueItem>
                      <num>2</num><pc>-</pc>
                      <history>
-                        <provenance>
-                           <ab>Bourg-la-Reine et Chantilly<pc>.</pc></ab>
-                        </provenance>
+                        <provenance>Bourg-la-Reine et Chantilly<pc>.</pc></provenance>
                      </history>
                      <objectDesc>
                         <ab>Deux pièces <pc>:</pc> pot de toilette cylindrique à nervures et

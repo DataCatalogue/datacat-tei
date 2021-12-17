@@ -48,37 +48,10 @@
         <body>
             <div>
                 <head>Aes Grave</head>
-                <ab><bibl><pc>(</pc>H. = Haeberlin<pc>,</pc> Dr E. J.<pc>,</pc> Aes Grave. Francfort
-                        s/M. 1910<pc>.</pc>
-                        <lb/> G. = Garrucci<pc>,</pc> P. R.<pc>,</pc> Le monete dell'Italia antica.
-                        Roma 1885.<pc>)</pc></bibl></ab>
-                <catalogueEntry>
-                    <catalogueItem>
-                        <num>1</num>
-                        <history>
-                            <origin><placeName>Latium et Campagnie<pc>.</pc></placeName> 1<pc>.</pc>
-                                <placeName>Rome</placeName><pc>.</pc> Série librale
-                                    urbaine<pc>,</pc> de la première et deuxième
-                                    période<pc>,</pc><date>env. 335-186 av. J.C.</date></origin>
-                        </history>
-                        <ab>As.</ab>
-                        <decoDesc>
-                            <ab>Tête de Janus<pc>.</pc> R<pc>.</pc> Proue à d. Au-dessus |·</ab>
-                        </decoDesc>
-                        <bibl>H. pl. 14-16<pc>.</pc></bibl>
-                        <objectDesc>
-                            <ab>
-                                <measure>Mm. 63</measure><pc>,</pc>
-                                <measure>gr. 262,20</measure><pc>.</pc>
-                            </ab>
-                        </objectDesc>
-                        <condition>Pat. T. B.</condition>
-                    </catalogueItem>
-                </catalogueEntry>
-                <!-- Des éléments TEI semblent devoir être répétés plusieurs fois selon la typologie des notices (objectDesc notamment) -->
-                <!-- ... -->
-
-                <!-- Entrée 33 encodage 1 : objectDesc simple, à plat. -->
+                <bibl><pc>(</pc>H. = Haeberlin<pc>,</pc> Dr E. J.<pc>,</pc> Aes Grave. Francfort
+                    s/M. 1910<pc>.</pc>
+                    <lb/> G. = Garrucci<pc>,</pc> P. R.<pc>,</pc> Le monete dell'Italia antica. Roma
+                        1885.<pc>)</pc></bibl>
                 <catalogueEntry>
                     <catalogueItem>
                         <metamark>*</metamark>
@@ -89,57 +62,21 @@
                                     d.<pc>,</pc> tenant une fleur dans son bec<pc>;</pc>
                                     derrière<pc>,</pc> ··<pc>.</pc></ab>
                         </decoDesc>
-                        <ab><bibl>B. I<pc>,</pc> p. 20, 20<pc>.</pc></bibl></ab>
+                        <bibl>B. I<pc>,</pc> p. 20, 20<pc>.</pc></bibl>
                         <history>
-                            <provenance>
-                                <ab>Sambon<pc>,</pc> Italie<pc>,</pc> 1158<pc>.</pc></ab>
-                            </provenance>
-                        </history>
-                        <objectDesc>
-                            <ab>
-                                <material>AE</material>
-                                <measure>Mm. 30</measure>
-                                <pc>,</pc>
-                                <measure>gr. 21,36</measure>
-                                <pc>.</pc>
-                            </ab>
-                        </objectDesc>
-                        <condition><ab>Pat. Très beau<pc>.</pc></ab></condition>
-                    </catalogueItem>
-                </catalogueEntry>
-                <!-- Entrée 33 encodage 2 : objectDesc plus fin, et <ab> pour tous les segments -->
-                <catalogueEntry>
-                    <catalogueItem>
-                        <ab>
-                            <metamark>*</metamark>
-                            <num>33</num>
-                        </ab>
-                        <decoDesc>
-                            <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A
-                                    l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à
-                                    d.<pc>,</pc> tenant une fleur dans son bec<pc>;</pc>
-                                    derrière<pc>,</pc> ··<pc>.</pc></ab>
-                        </decoDesc>
-                        <ab><bibl>B. I<pc>,</pc> p. 20, 20<pc>.</pc></bibl></ab>
-                        <history>
-                            <provenance>
-                                <ab>Sambon<pc>,</pc> Italie<pc>,</pc> 1158<pc>.</pc></ab>
-                            </provenance>
+                            <provenance>Sambon<pc>,</pc> Italie<pc>,</pc>
+                                1158<pc>.</pc></provenance>
                         </history>
                         <objectDesc>
                             <supportDesc>
                                 <support>
-                                    <ab>
-                                        <material>AE</material>
-                                        <measure>Mm. 30</measure>
-                                        <pc>,</pc>
-                                        <measure>gr. 21,36</measure>
-                                        <pc>.</pc>
-                                    </ab>
+                                    <material>AE</material>
+                                    <measure>Mm. 30</measure>
+                                    <pc>,</pc>
+                                    <measure>gr. 21,36</measure>
+                                    <pc>.</pc>
                                 </support>
-                                <condition>
-                                    <ab>Pat. Très beau<pc>.</pc></ab>
-                                </condition>
+                                <condition>Pat. Très beau<pc>.</pc></condition>
                             </supportDesc>
                         </objectDesc>
                     </catalogueItem>

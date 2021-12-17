@@ -55,21 +55,25 @@
                         <num>2</num>
                         <metamark>*</metamark>
                         <objectDesc>
-                            <ab>Agnel d'or<pc>.</pc></ab>
+                            <supportDesc>
+                                <support>Agnel d'or<pc>.</pc></support>
+                            </supportDesc>
                         </objectDesc>
                         <decoDesc>
-                            <ab>Agneau Pascal à g., nimbé, détournant la tête vers une croix
-                                fleurdelisée ornée d'une bannière. A l'exergue: PH'REX R./ Croix
-                                fleuronnée dans une rosace cantonnée de quatre lis.</ab>
+                            <ab>Agneau Pascal à g.<pc>,</pc> nimbé, détournant la tête vers une
+                                croix fleurdelisée ornée d'une bannière<pc>.</pc> A l'exergue:
+                                PH'REX R./ Croix fleuronnée dans une rosace cantonnée de quatre
+                                    lis<pc>.</pc></ab>
                         </decoDesc>
                         <objectDesc>
                             <supportDesc>
-                                <support><ab>(<measure>Dy. 212</measure>, <measure>L.
-                                        216</measure>). <measure>3,69 g.</measure></ab></support>
-                                <condition><ab>Très leger coup sinon Superbe.</ab></condition>
+                                <support><pc>(</pc><measure>Dy. 212</measure><pc>,</pc>
+                                    <measure>L. 216</measure><pc>)</pc><pc>.</pc>
+                                    <measure>3,69 g.</measure></support>
+                                <condition>Très leger coup sinon Superbe<p>.</p></condition>
                             </supportDesc>
                         </objectDesc>
-                        <ab><num type="currency">2000 / 2500 euros</num></ab>
+                        <num type="currency">2000 / 2500 euros</num>
                     </catalogueItem>
                 </catalogueEntry>
             </div>
