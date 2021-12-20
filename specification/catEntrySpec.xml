@@ -129,6 +129,12 @@
                   <memberOf key="model.catalogueDescPart"/>
                </classes>
             </elementSpec>
+            
+            <elementSpec ident="ab" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
 
             <elementSpec ident="pc" mode="change">
                <classes mode="change">
