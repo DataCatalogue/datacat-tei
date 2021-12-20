@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k9784357s/f29.item">Gallica
+               Bibliothèque nationale de France</distributor>
+            <availability>
+               <licence
+                  target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                  >Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Catalogue d'antiquités égyptiennes<pc>,</pc> grecques<pc>,</pc> romaines et
+                  celtiques<pc>,</pc> modèles d'édifices antiques<pc>,</pc> tableaux<pc>,</pc>
+                  dessins<pc>,</pc> colonnes<pc>,</pc> meuvles précieux<pc>,</pc>
+               etc<pc>.</pc></head>
+            <div>
+               <head>Antiquités égyptiennes (I)<pc>.</pc></head>
+               <catalogueEntry>
+                  <head>Statues<pc>.</pc></head>
+                  <catalogueItem>
+                     <num>I</num><pc>.</pc><metamark>***</metamark><pc>.</pc>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <material>Basalte vert<pc>.</pc></material>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                     <decoDesc>
+                        <ab>Figure d'un homme debout<pc>,</pc> la tête enveloppée d'une large
+                              coëffe<pc>,</pc> les reins serrés dans une espèce de petite tunique
+                           croisée par devant<pc>,</pc> et les bras pendans à ses côtés
+                              (2)<pc>.</pc></ab>
+                     </decoDesc>
+                     <objectDesc>
+                        <supportDesc>
+                           <condition>Cette statue avoit éprouvé anciennement quelques dégradations
+                              qui ont été réparées à Rome<pc>,</pc> par le sculpteur
+                                 Massimiliano<pc>,</pc> artiste très-intelligent dans ce genre de
+                                 travail<pc>.</pc> On doit observer pendant que ces restaurations ne
+                              s'étendent pas jusqu'aux hiéroglyphes sculptés sur la ceinture de
+                              cette statue<pc>,</pc> ainsi que sur le pilastre qui lui sert
+                                 d'appui<pc>.</pc> Ces caractères dessinés et exécutés avec beaucoup
+                              de soin<pc>,</pc> sont encore dans un parfait état de
+                                 conservation<pc>.</pc> Le piédestal destiné à supporter aux deux
+                              côtés de la figure<pc>,</pc>, les canopes décrits sous le n
+                                 25<pc>,</pc> se compose d'un grand socle de vert antique<pc>,</pc>
+                              élevé sur deux marches de granit rose d'Egypte</condition>
+                           <support> Hauteur de la figure<pc>,</pc> non compris celle du
+                                 piédestal<pc>,</pc>
+                              <measure>80 centimètres</measure><pc>.</pc> (<measure>50
+                                 pouces.)</measure>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </catalogueItem>
+               </catalogueEntry>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
