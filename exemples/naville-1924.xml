@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Monnaies Romaines Antiques en or, argent et bronze</title>
+                        <title>Catalogue illustré de 64 planches</title>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Naville &amp; Cie</publisher>
+                        <pubPlace>
+                            <address>
+                                <country key="CH"/>
+                                <settlement type="city">Genève</settlement>
+                                <addrLine>Agence des journaux</addrLine>
+                                <street><num>6</num>&amp;<num>9</num> rue Pécolat</street>
+                            </address>
+                        </pubPlace>
+                        <date when-iso="1924">1924</date>
+                        <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k9780571h/f14.item"
+                            >Gallica Bibliothèque nationale de France</distributor>
+                        <availability>
+                            <licence
+                                target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                                >Domaine public</licence>
+                        </availability>
+                    </publicationStmt>
+                    <seriesStmt>
+                        <title>Monnaies Romaines Antiques en or, argent et bronze</title>
+                        <biblScope unit="collection">Collection Clarence S. Bement de Philadelphie
+                            (U. S. A.)</biblScope>
+                        <biblScope unit="volume">VIII</biblScope>
+                    </seriesStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Aes Grave</head>
+                <bibl><pc>(</pc>H. = Haeberlin<pc>,</pc> Dr E. J.<pc>,</pc> Aes Grave. Francfort
+                    s/M. 1910<pc>.</pc>
+                    <lb/> G. = Garrucci<pc>,</pc> P. R.<pc>,</pc> Le monete dell'Italia antica. Roma
+                        1885.<pc>)</pc></bibl>
+                <catalogueEntry>
+                    <catalogueItem>
+                        <metamark>*</metamark>
+                        <num>33</num>
+                        <decoDesc>
+                            <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A
+                                    l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à
+                                    d.<pc>,</pc> tenant une fleur dans son bec<pc>;</pc>
+                                    derrière<pc>,</pc> ··<pc>.</pc></ab>
+                        </decoDesc>
+                        <bibl>B. I<pc>,</pc> p. 20, 20<pc>.</pc></bibl>
+                        <history>
+                            <provenance>Sambon<pc>,</pc> Italie<pc>,</pc>
+                                1158<pc>.</pc></provenance>
+                        </history>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>AE</material>
+                                    <measure>Mm. 30</measure>
+                                    <pc>,</pc>
+                                    <measure>gr. 21,36</measure>
+                                    <pc>.</pc>
+                                </support>
+                                <condition>Pat. Très beau<pc>.</pc></condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </catalogueItem>
+                </catalogueEntry>
+            </div>
+        </body>
+    </text>
+</TEI>

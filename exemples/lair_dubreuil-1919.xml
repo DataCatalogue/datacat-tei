@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Belle argenterie et métal argenté en partie de travail anglais appartenant à madame X... et a divers</title>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Imp. de l'Art</publisher>
+                  <pubPlace>
+                     <address>
+                        <country key="FR"/>
+                        <settlement type="city">Paris</settlement>
+                        <addrLine>Imp. de l'Art, Ch. Berger</addrLine>
+                        <street><num>41</num> rue de la Victoire.</street>
+                     </address>
+                  </pubPlace>
+                  <date when-iso="1762">1919</date>
+                  <distributor facs="https://bibliotheque-numerique.inha.fr/collection/item/35473-catalogue-d-une-belle-argenterie-vente-du-23-juin-1919"
+                     >Gallica Bibliothèque nationale de France</distributor>
+                  <availability>
+                     <licence
+                        target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                        >Domaine public</licence>
+                  </availability>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div>
+            <head>Désignation</head>
+            <div>
+               <head>1 appartenant à Madame X...</head>
+               <div>
+                  <head>Argenterie</head>
+                  <catalogueEntry>
+                     <catalogueItem>
+                        <num>1</num>
+                        <pc>-</pc>
+                        <objectDesc>
+                           <ab>Service d'argenterie de table<pc>,</pc></ab>
+                        </objectDesc>
+                        <decoDesc>
+                           <ab>modèle contourné à coquilles<pc>,</pc> de travail anglais<pc>.</pc></ab>
+                        </decoDesc>
+                        <ab>Composé de <pc>:</pc></ab>
+                        <listObject>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Louche<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Vingt-quatre couverts de table<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Vig-quatre couverts à entremets<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Douze petits couverts à dessert<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Deux uillers à ragoût<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Deux cuillers à sauce<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Pince à asperges<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Truelle à poissons<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Quatre cuillers à sel, cuiller à moutarde<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Douze cuillers à café<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Six petites cuillers à thé<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Pelle à beurre<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <object>
+                              <objectIdentifier>
+                                 <objectName>Pince et cuiller à sucre<pc>;</pc></objectName>
+                              </objectIdentifier>
+                           </object>
+                           <!-- And the list goes on. -->
+                        </listObject>
+                     </catalogueItem>
+                  </catalogueEntry>
+               </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
