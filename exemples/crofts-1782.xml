@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../specification/out/catEntrySpec.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k3044995h/f11.item">Gallica
+               Bibliothèque nationale de France</distributor>
+            <availability>
+               <licence
+                  target="https://gallica.bnf.fr/edit/und/conditions-dutilisation-des-contenus-de-gallica"
+                  >Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>First day's sale<pc>.</pc></head>
+            <ab>Tuesday<pc>,</pc> March 26<pc>,</pc> 1782<pc>.</pc></ab>
+            <ab>LOT</ab>
+            <div>
+               <catalogueEntry>
+                  <catalogueItem>
+                     <num>1</num>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              Various large<pc>,</pc> middle<pc>,</pc> and small<pc>,</pc>
+                                    brass<pc>.</pc>
+                           </support>
+                        </supportDesc>
+                     </objectDesc>
+                  </catalogueItem>
+                  <catalogueItem>
+                     <num>2</num>
+                     <ab>Ditto<pc>.</pc></ab>
+                  </catalogueItem>
+                  <!-- ... -->
+               </catalogueEntry>
+               <catalogueEntry>
+                  <head>Roman middle brafs<pc>.</pc></head>
+                  <catalogueItem>
+                     <num>7</num>
+                     <decoDesc>
+                        <ab>Augustus <num>6</num><pc>,</pc> Tiberius <num>4</num><pc>,</pc> Caligula
+                              <num>2</num><pc>,</pc> Claudius 4</ab>
+                     </decoDesc>
+                     <num>16</num>
+                  </catalogueItem>
+               </catalogueEntry>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
