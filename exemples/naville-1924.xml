@@ -47,15 +47,18 @@
     <text>
         <body>
             <div>
-                <head>Aes Grave</head>
-                <bibl><pc>(</pc>H. = Haeberlin<pc>,</pc> Dr E. J.<pc>,</pc> Aes Grave. Francfort
-                    s/M. 1910<pc>.</pc>
-                    <lb/> G. = Garrucci<pc>,</pc> P. R.<pc>,</pc> Le monete dell'Italia antica. Roma
-                        1885.<pc>)</pc></bibl>
                 <catalogueEntry>
+                <catalogueDesc>
+                    <head>Aes Grave</head>
+                    <bibl><pc>(</pc>H. = Haeberlin<pc>,</pc> Dr E. J.<pc>,</pc> Aes Grave. Francfort
+                        s/M. 1910<pc>.</pc>
+                        <lb/> G. = Garrucci<pc>,</pc> P. R.<pc>,</pc> Le monete dell'Italia antica.
+                        Roma 1885.<pc>)</pc></bibl></catalogueDesc>
                     <catalogueItem>
                         <metamark>*</metamark>
-                        <num>33</num>
+                        <altIdentifier>
+                            <idno>33</idno>
+                        </altIdentifier>
                         <decoDesc>
                             <ab>La louve tournée à d.<pc>,</pc> allaitant les jumeaux<pc>.</pc> A
                                     l'ex.<pc>,</pc> ··<pc>.</pc> R<pc>.</pc> ROMA· Corbeau à
@@ -80,7 +83,7 @@
                             </supportDesc>
                         </objectDesc>
                     </catalogueItem>
-                </catalogueEntry>
+                
             </div>
         </body>
     </text>

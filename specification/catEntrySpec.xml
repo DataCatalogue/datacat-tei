@@ -83,6 +83,7 @@
                <content>
                   <alternate minOccurs="1" maxOccurs="unbounded">
                      <textNode/>
+                     <elementRef key="head"/>
                      <classRef key="model.catalogueDescPart"/>
                      <classRef key="model.global"/>
                      <classRef key="model.ptrLike"/>
@@ -98,7 +99,6 @@
                <content>
                   <alternate minOccurs="1" maxOccurs="unbounded">
                      <textNode/>
-                     <elementRef key="catalogueDesc"/>
                      <classRef key="model.catalogueDescPart"/>
                      <classRef key="model.global"/>
                      <classRef key="model.ptrLike"/>
@@ -185,6 +185,12 @@
             </elementSpec>
 
             <elementSpec ident="objectDesc" mode="change">
+               <classes mode="change">
+                  <memberOf key="model.catalogueDescPart"/>
+               </classes>
+            </elementSpec>
+            
+            <elementSpec ident="altIdentifier" mode="change">
                <classes mode="change">
                   <memberOf key="model.catalogueDescPart"/>
                </classes>

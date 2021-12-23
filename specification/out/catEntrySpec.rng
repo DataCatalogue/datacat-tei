@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-12-20T16:06:47Z. .
+Schema generated from ODD source 2021-12-23T11:51:48Z. .
 TEI Edition: Version 4.0.0. Last updated on
 	13th February 2020, revision ccd19b0ba
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -12806,6 +12806,7 @@ You must supply at least two values for @target on <name/>
          <oneOrMore>
             <choice>
                <text/>
+               <ref name="tei_head"/>
                <ref name="tei_model.catalogueDescPart"/>
                <ref name="tei_model.global"/>
                <ref name="tei_model.ptrLike"/>
@@ -12821,7 +12822,6 @@ You must supply at least two values for @target on <name/>
          <oneOrMore>
             <choice>
                <text/>
-               <ref name="tei_catalogueDesc"/>
                <ref name="tei_model.catalogueDescPart"/>
                <ref name="tei_model.global"/>
                <ref name="tei_model.ptrLike"/>
@@ -12842,6 +12842,7 @@ You must supply at least two values for @target on <name/>
          <ref name="tei_bibl"/>
          <ref name="tei_listObject"/>
          <ref name="tei_pc"/>
+         <ref name="tei_altIdentifier"/>
          <ref name="tei_objectDesc"/>
          <ref name="tei_decoDesc"/>
          <ref name="tei_history"/>
