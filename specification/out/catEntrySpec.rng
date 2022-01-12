@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-12-23T11:51:48Z. .
+Schema generated from ODD source 2022-01-12T16:52:40Z. .
 TEI Edition: Version 4.0.0. Last updated on
 	13th February 2020, revision ccd19b0ba
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -12781,7 +12781,7 @@ You must supply at least two values for @target on <name/>
    </define>
    <define name="tei_catalogueEntry">
       <element name="catalogueEntry">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(catalogue entry) contains a single structured entry in any kind of catalogue, exhibition or sales.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(catalogue entry) contains a single structured entry in any kind of catalogue, exhibition or sales. Element can be recursive.</a:documentation>
          <oneOrMore>
             <choice>
                <ref name="tei_head"/>
@@ -12802,7 +12802,7 @@ You must supply at least two values for @target on <name/>
    </define>
    <define name="tei_catalogueDesc">
       <element name="catalogueDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides descriptive information about a catalogue entry or item.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides descriptive information about a catalogue entry or items contained by it.</a:documentation>
          <oneOrMore>
             <choice>
                <text/>
@@ -12818,7 +12818,7 @@ You must supply at least two values for @target on <name/>
    </define>
    <define name="tei_catalogueItem">
       <element name="catalogueItem">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes en elementary item in a catalogue.</a:documentation>
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes en elementary item in a catalogue entry.</a:documentation>
          <oneOrMore>
             <choice>
                <text/>

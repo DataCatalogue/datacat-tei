@@ -53,7 +53,7 @@
             <elementSpec ident="catalogueEntry" module="catalogues">
                <gloss xml:lang="en">catalogue entry</gloss>
                <desc xml:lang="en">contains a single structured entry in any kind of catalogue,
-                  exhibition or sales.</desc>
+                  exhibition or sales. Element can be recursive.</desc>
                <classes>
                   <memberOf key="att.global"/>
                   <memberOf key="att.typed"/>
@@ -76,7 +76,7 @@
 
             <elementSpec ident="catalogueDesc" module="catalogues">
                <desc xml:lang="en">provides descriptive information about a catalogue entry or
-                  item.</desc>
+                  items contained by it.</desc>
                <classes>
                   <memberOf key="att.global"/>
                </classes>
@@ -92,7 +92,7 @@
             </elementSpec>
 
             <elementSpec ident="catalogueItem" module="catalogues">
-               <desc xml:lang="en">describes en elementary item in a catalogue.</desc>
+               <desc xml:lang="en">describes en elementary item in a catalogue entry.</desc>
                <classes>
                   <memberOf key="att.global"/>
                </classes>
