@@ -54,10 +54,14 @@
          <div>
             <head>Catalogue</head>
             <div>
-               <head>Copper and Brass<pc>.</pc></head>
-               <div>
-                  <head>Roman Small<pc>.</pc></head>
+               <catalogueEntry>
+                  <catalogueDesc>
+                     <head>Copper and Brass<pc>.</pc></head>
+                  </catalogueDesc>
                   <catalogueEntry>
+                     <catalogueDesc>
+                        <head>Roman Small<pc>.</pc></head>
+                     </catalogueDesc>
                      <catalogueItem>
                         <num>1</num>
                         <decoDesc>
@@ -66,8 +70,6 @@
                         </decoDesc>
                         <measure type="currency">430</measure>
                      </catalogueItem>
-                  </catalogueEntry>
-                  <catalogueEntry>
                      <catalogueItem>
                         <num>2</num>
                         <decoDesc>
@@ -78,6 +80,9 @@
                   </catalogueEntry>
                   <!-- ... -->
                   <catalogueEntry>
+                     <catalogueDesc>
+                        <head>LARGE BRASS<pc>.</pc></head>
+                     </catalogueDesc>
                      <catalogueItem>
                         <metamark>*</metamark>
                         <num>6</num>
@@ -86,8 +91,6 @@
                         </decoDesc>
                         <measure type="currency">50</measure>
                      </catalogueItem>
-                  </catalogueEntry>
-                  <catalogueEntry>
                      <catalogueItem>
                         <num>7</num>
                         <decoDesc>
@@ -101,42 +104,42 @@
                         <measure type="currency">1</measure>
                      </catalogueItem>
                   </catalogueEntry>
-               </div>
-               <!-- https://gallica.bnf.fr/ark:/12148/bpt6k3044492j/f14.item -->
-               <div>
-                  <!-- Entrée qui pose problème à cause des informations de temps -->
-                  <head>Ancient British<pc>.</pc></head>
-                  <catalogueEntry>
-                     <catalogueItem>
-                        <num>36</num>
-                        <objectDesc>
-                           <supportDesc>
-                              <support>
-                                 <ab>
-                                    <num>One</num>
-                                    <material>Gold</material>
-                                    <origDate>very ancient</origDate>
-                                 </ab></support>
-                           </supportDesc>
-                        </objectDesc>
-                        <measure type="currency">1</measure>
-                     </catalogueItem>
-                  </catalogueEntry>
-                  <!-- ... -->
-               </div>
-               <div>
-                  <head>English silver coins<pc>.</pc></head>
-                  <catalogueEntry>
-                     <catalogueItem>
-                        <num>44</num>
-                        <decoDesc>
-                           <ab>WIlliam the Cnqueror<pc>,</pc> fulle faced<pc>,</pc> with the ſword -
-                              do. with labels - do. ſide faced to the right</ab>
-                        </decoDesc>
-                        <measure type="currency">3</measure>
-                     </catalogueItem>
-                  </catalogueEntry>
-               </div>
+               </catalogueEntry>
+               <!-- ...
+                  https://gallica.bnf.fr/ark:/12148/bpt6k3044492j/f14.item -->
+               <catalogueEntry>
+                  <catalogueDesc>
+                     <head>Ancient British<pc>.</pc></head>
+                  </catalogueDesc>
+                  <catalogueItem>
+                     <num>36</num>
+                     <objectDesc>
+                        <supportDesc>
+                           <support>
+                              <ab>
+                                 <num>One</num>
+                                 <material>Gold</material>
+                                 <origDate>very ancient</origDate>
+                              </ab></support>
+                        </supportDesc>
+                     </objectDesc>
+                     <measure type="currency">1</measure>
+                  </catalogueItem>
+               </catalogueEntry>
+               <!-- ... -->
+               <catalogueEntry>
+                  <catalogueDesc>
+                     <head>English silver coins<pc>.</pc></head>
+                  </catalogueDesc>
+                  <catalogueItem>
+                     <num>44</num>
+                     <decoDesc>
+                        <ab>WIlliam the Conqueror<pc>,</pc> fulle faced<pc>,</pc> with the ſword -
+                           do. with labels - do. ſide faced to the right</ab>
+                     </decoDesc>
+                     <measure type="currency">3</measure>
+                  </catalogueItem>
+               </catalogueEntry>
             </div>
          </div>
       </body>

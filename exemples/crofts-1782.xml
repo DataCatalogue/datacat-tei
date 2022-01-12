@@ -24,39 +24,40 @@
       <body>
          <div>
             <head>First day's sale<pc>.</pc></head>
-            <ab>Tuesday<pc>,</pc> March 26<pc>,</pc> 1782<pc>.</pc></ab>
-            <ab>LOT</ab>
-            <div>
-               <catalogueEntry>
-                  <catalogueItem>
-                     <num>1</num>
-                     <objectDesc>
-                        <supportDesc>
-                           <support>
-                              Various large<pc>,</pc> middle<pc>,</pc> and small<pc>,</pc>
-                                    brass<pc>.</pc>
-                           </support>
-                        </supportDesc>
-                     </objectDesc>
-                  </catalogueItem>
-                  <catalogueItem>
-                     <num>2</num>
-                     <ab>Ditto<pc>.</pc></ab>
-                  </catalogueItem>
-                  <!-- ... -->
-               </catalogueEntry>
-               <catalogueEntry>
+            <catalogueEntry>
+               <catalogueDesc>
+                  <head>Tuesday<pc>,</pc> March 26<pc>,</pc> 1782<pc>.</pc></head>
+                  <ab>LOT</ab>
+               </catalogueDesc>
+               <catalogueItem>
+                  <num>1</num>
+                  <objectDesc>
+                     <supportDesc>
+                        <support> Various large<pc>,</pc> middle<pc>,</pc> and small<pc>,</pc>
+                              brass<pc>.</pc>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </catalogueItem>
+               <catalogueItem>
+                  <num>2</num>
+                  <ab>Ditto<pc>.</pc></ab>
+               </catalogueItem>
+            </catalogueEntry>
+            <!-- ... -->
+            <catalogueEntry>
+               <catalogueDesc>
                   <head>Roman middle brafs<pc>.</pc></head>
-                  <catalogueItem>
-                     <num>7</num>
-                     <decoDesc>
-                        <ab>Augustus <num>6</num><pc>,</pc> Tiberius <num>4</num><pc>,</pc> Caligula
-                              <num>2</num><pc>,</pc> Claudius 4</ab>
-                     </decoDesc>
-                     <num>16</num>
-                  </catalogueItem>
-               </catalogueEntry>
-            </div>
+               </catalogueDesc>
+               <catalogueItem>
+                  <num>7</num>
+                  <decoDesc>
+                     <ab>Augustus <num>6</num><pc>,</pc> Tiberius <num>4</num><pc>,</pc> Caligula
+                           <num>2</num><pc>,</pc> Claudius 4</ab>
+                  </decoDesc>
+                  <num>16</num>
+               </catalogueItem>
+            </catalogueEntry>
          </div>
       </body>
    </text>

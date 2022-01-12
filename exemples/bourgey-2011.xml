@@ -49,8 +49,10 @@
     <text>
         <body>
             <div>
-                <head>Collection d'un amateur</head>
                 <catalogueEntry>
+                    <catalogueDesc>
+                        <head>Collection d'un amateur</head>
+                    </catalogueDesc>
                     <catalogueItem>
                         <num>2</num>
                         <metamark>*</metamark>
