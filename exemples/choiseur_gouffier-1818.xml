@@ -37,7 +37,9 @@
                         <head>Statues<pc>.</pc></head>
                      </catalogueDesc>
                      <catalogueItem>
-                        <num>I</num><pc>.</pc><metamark>***</metamark><pc>.</pc>
+                        <altIdentifier>
+                           <idno>I</idno>
+                        </altIdentifier><pc>.</pc><metamark>***</metamark><pc>.</pc>
                         <objectDesc>
                            <supportDesc>
                               <support>

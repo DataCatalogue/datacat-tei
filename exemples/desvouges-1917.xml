@@ -56,7 +56,10 @@
                   <head>Porcelaines françaises</head>
                </catalogueDesc>
                <catalogueItem>
-                  <num>1<pc>-</pc></num>
+                  <altIdentifier>
+                     <idno>1</idno>
+                  </altIdentifier>
+                  <pc>-</pc>
                   <history>
                      <provenance>Arras<pc>.</pc></provenance>
                   </history>
@@ -72,7 +75,9 @@
                </catalogueItem>
                <!-- Difficultés dans la segmentation des informations de la notice -->
                <catalogueItem>
-                  <num>2</num><pc>-</pc>
+                  <altIdentifier>
+                     <idno>2</idno>
+                  </altIdentifier><pc>-</pc>
                   <history>
                      <provenance>Bourg-la-Reine et Chantilly<pc>.</pc></provenance>
                   </history>
@@ -95,7 +100,10 @@
                   </objectDesc>
                </catalogueItem>
                <catalogueItem>
-                  <num>3<pc>-</pc></num>
+                  <altIdentifier>
+                     <idno>3</idno>
+                  </altIdentifier>
+                  <pc>-</pc>
                   <history>
                      <provenance>
                         <ab>Chantilly<pc>.</pc></ab>

@@ -51,7 +51,9 @@
                   <head>Argenterie</head>
                </catalogueDesc>
                <catalogueItem>
-                  <num>1</num>
+                  <altIdentifier>
+                     <idno>1</idno>
+                  </altIdentifier>
                   <pc>-</pc>
                   <objectDesc>
                      <ab>Service d'argenterie de table<pc>,</pc></ab>

@@ -30,7 +30,9 @@
                   <ab>LOT</ab>
                </catalogueDesc>
                <catalogueItem>
-                  <num>17</num>
+                  <altIdentifier>
+                     <idno>17</idno>
+                  </altIdentifier>
                   <decoDesc>
                      <ab>One of Cunobeline<pc>,</pc> and <num>3</num> of unknown Kings (brass)</ab>
                   </decoDesc>

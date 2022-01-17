@@ -30,7 +30,9 @@
                   <ab>LOT</ab>
                </catalogueDesc>
                <catalogueItem>
-                  <num>1</num>
+                  <altIdentifier>
+                     <idno>1</idno>
+                  </altIdentifier>
                   <objectDesc>
                      <supportDesc>
                         <support> Various large<pc>,</pc> middle<pc>,</pc> and small<pc>,</pc>
@@ -50,7 +52,9 @@
                   <head>Roman middle brafs<pc>.</pc></head>
                </catalogueDesc>
                <catalogueItem>
-                  <num>7</num>
+                  <altIdentifier>
+                     <idno>7</idno>
+                  </altIdentifier>
                   <decoDesc>
                      <ab>Augustus <num>6</num><pc>,</pc> Tiberius <num>4</num><pc>,</pc> Caligula
                            <num>2</num><pc>,</pc> Claudius 4</ab>

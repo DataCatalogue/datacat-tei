@@ -63,7 +63,9 @@
                         <head>Roman Small<pc>.</pc></head>
                      </catalogueDesc>
                      <catalogueItem>
-                        <num>1</num>
+                        <altIdentifier>
+                           <idno>1</idno>
+                        </altIdentifier>
                         <decoDesc>
                            <ab>Gallienus<pc>,</pc> Tetricus Senior<pc/> Junior<pc>,</pc> Claudius
                                  Vic<pc>-</pc>torinus, &amp;c<pc>.</pc></ab>
@@ -71,7 +73,9 @@
                         <measure type="currency">430</measure>
                      </catalogueItem>
                      <catalogueItem>
-                        <num>2</num>
+                        <altIdentifier>
+                           <idno>2</idno>
+                        </altIdentifier>
                         <decoDesc>
                            <ab>From Pompey to Conſtantine</ab>
                         </decoDesc>
@@ -85,14 +89,18 @@
                      </catalogueDesc>
                      <catalogueItem>
                         <metamark>*</metamark>
-                        <num>6</num>
+                        <altIdentifier>
+                           <idno>6</idno>
+                        </altIdentifier>
                         <decoDesc>
                            <ab>Do<pc>.</pc></ab>
                         </decoDesc>
                         <measure type="currency">50</measure>
                      </catalogueItem>
                      <catalogueItem>
-                        <num>7</num>
+                        <altIdentifier>
+                           <idno>7</idno>
+                        </altIdentifier>
                         <decoDesc>
                            <ab>An Otho<pc>,</pc></ab>
                         </decoDesc>
@@ -112,7 +120,9 @@
                      <head>Ancient British<pc>.</pc></head>
                   </catalogueDesc>
                   <catalogueItem>
-                     <num>36</num>
+                     <altIdentifier>
+                        <idno>36</idno>
+                     </altIdentifier>
                      <objectDesc>
                         <supportDesc>
                            <support>
@@ -132,7 +142,9 @@
                      <head>English silver coins<pc>.</pc></head>
                   </catalogueDesc>
                   <catalogueItem>
-                     <num>44</num>
+                     <altIdentifier>
+                        <idno>44</idno>
+                     </altIdentifier>
                      <decoDesc>
                         <ab>WIlliam the Conqueror<pc>,</pc> fulle faced<pc>,</pc> with the ſword -
                            do. with labels - do. ſide faced to the right</ab>

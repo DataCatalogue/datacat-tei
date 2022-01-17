@@ -84,6 +84,7 @@
                             </supportDesc>
                         </objectDesc>
                     </catalogueItem>
+                    </catalogueEntry>
                     <!-- ... -->
                     <!-- https://gallica.bnf.fr/ark:/12148/bpt6k9780571h/f20.item -->
                     <!-- catalogueEntry can be recursive -->
@@ -125,9 +126,49 @@
                                     <acquisition>-Vente Mann, Londres 1917.-</acquisition>
                                 </history>
                             </catalogueItem>
+                            <!-- ... -->
+                        </catalogueEntry>
+                        <catalogueEntry>
+                            <catalogueDesc>
+                                <head>Monnaies sans marque monétaire</head>
+                            </catalogueDesc>
+                            <catalogueItem>
+                                <altIdentifier>
+                                    <idno>38</idno>
+                                </altIdentifier>
+                                <ab><origDate>Première période<pc>,</pc> 268-4 av. J.-C.</origDate></ab>
+                                <decoDesc>
+                                    <ab>Tête de Roma à d.<pc>,</pc> au casque ailé<pc>.</pc> R<pc>.</pc> Roma· Victoire conduisant un bige au galop à d.</ab>
+                                </decoDesc>
+                                <bibl>B. I<pc>,</pc> p. 40<pc>,</pc> 6<pc>.</pc></bibl>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <condition>T.B.</condition>
+                                    </supportDesc>
+                                </objectDesc>
+                            </catalogueItem>
+                            <!-- ... -->
+                        </catalogueEntry>
+                        <catalogueEntry>
+                            <catalogueDesc>
+                                <head>Monnaies avec symbole</head>
+                            </catalogueDesc>
+                            <catalogueItem>
+                                <altIdentifier>
+                                    <idno>44</idno>
+                                </altIdentifier>
+                                <decoDesc>
+                                    <ab>Tête casquée de Rome<pc>.</pc> R<pc>.</pc> Les Dioscures à d.<pc>;</pc> symboles<pc>,</pc> fer de lance<pc>,</pc> massue et Victoriat<pc>;</pc> symbole<pc>;</pc> épi<pc>.</pc></ab>
+                                </decoDesc>
+                                <bibl>B. p. 48<pc>,</pc> 20 et 24<pc>.</pc></bibl>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <condition>T.B. 3.</condition>
+                                    </supportDesc>
+                                </objectDesc>
+                            </catalogueItem>
                         </catalogueEntry>
                     </catalogueEntry>
-                </catalogueEntry>
             </div>
         </body>
     </text>

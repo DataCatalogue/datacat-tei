@@ -54,7 +54,9 @@
                         <head>Collection d'un amateur</head>
                     </catalogueDesc>
                     <catalogueItem>
-                        <num>2</num>
+                        <altIdentifier>
+                            <idno>2</idno>
+                        </altIdentifier>
                         <metamark>*</metamark>
                         <objectDesc>
                             <supportDesc>
