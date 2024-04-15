@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Spécification d'une structure d'entrée de catalogues</title>
+				<author>
+					<persName>
+						<forename>Laurent</forename>
+						<surname>Romary</surname>
+					</persName>
+					<persName>
+						<forename>Hugo</forename>
+						<surname>Scheithauer</surname>
+					</persName>
+				</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>for use by whoever wants it</p>
+			</publicationStmt>
+			<notesStmt>
+				<note type="ns">http://www.example.org/ns/nonTEI</note>
+			</notesStmt>
+			<sourceDesc>
+				<p>created on Friday 20th March 2020 11:01:40 AM</p>
+				<p>updated during october and november 2021</p>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when-iso="2024-01-25" who="#sarah.beniere">Restructured the file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<!--
+		<front>
+			<divGen type="toc"/>
+		</front> -->
+		<body>
+			<!-- <note><att>type</att> on <gi>catEntry</gi> to indicate what category of object the entry is
+				about (e.g. saleItem, painting, etc. to be refined)</note> -->
+
+			<div type="documentation"/>
+			<div type="specifications">
+				<schemaSpec ident="catalogues" start="TEI" prefix="tei_" targetLang="en" docLang="en">
+
+					<!-- MANDATORY MODULES -->
+					<moduleRef key="tei"/>
+					<moduleRef key="header"
+						include="authority availability change correction creation distributor edition editionStmt editorialDecl encodingDesc fileDesc idno language langUsage licence publicationStmt revisionDesc seriesStmt sourceDesc teiHeader titleStmt"/>
+					<moduleRef key="core"
+						include="abbr add address addrLine author bibl choice date del desc editor expan foreign graphic head hi index item lb list note num p pb publisher pubPlace respStmt resp textLang time title unclear"/>
+					<moduleRef key="textstructure"
+						include="back body byline div docAuthor docDate docImprint docTitle front TEI text titlePage titlePart"/>
+
+					<!-- ADDITIONAL MODULES -->
+					<moduleRef key="figures" include="figDesc figure row table"/>
+					<moduleRef key="msdescription"
+						include="condition depth dim dimensions height  institution objectType repository stamp width"/>
+					<moduleRef key="namesdates"
+						include="geo location persName person place placeName settlement"/>
+					<moduleRef key="transcr" include="fw"/>
+
+
+					<!-- SPECIFICATIONS FOR THE "CATALOGUES" MODULE -->
+					<moduleSpec ident="catalogues">
+						<idno>Catalogues</idno>
+						<desc>Additional elements for the description of catalogues</desc>
+					</moduleSpec>
+
+					<!-- <classSpec type="model" ident="model.catalogueDescPart" module="catalogues"/> -->
+
+					<!-- NEW "CATALOGUES" ELEMENTS -->
+					<elementSpec ident="catalogueDesc" module="catalogues">
+						<gloss>catalogue description</gloss>
+						<desc>provides information about the catalogue entry and the items it
+							contains</desc>
+						<classes>
+							<memberOf key="att.global"/>
+						</classes>
+						<content>
+							<alternate minOccurs="1" maxOccurs="unbounded">
+								<!-- <classRef key="model.catalogueDescPart"/> -->
+								<!--  <classRef key="model.global"/>
+							<classRef key="model.ptrLike"/> -->
+								<elementRef key="head"/>
+								<textNode/>
+							</alternate>
+						</content>
+					</elementSpec>
+
+					<elementSpec ident="catalogueEntry" module="catalogues">
+						<gloss>catalogue entry</gloss>
+						<desc>contains a structured entry in any kind of catalogue, exhibition or
+							sales.</desc>
+						<classes>
+							<memberOf key="att.global"/>
+							<memberOf key="att.typed"/>
+							<memberOf key="att.sortable"/>
+							<memberOf key="model.common"/>
+						</classes>
+						<content>
+							<alternate minOccurs="1" maxOccurs="unbounded">
+								<!-- <classRef key="model.global"/>
+							<classRef key="model.ptrLike"/> -->
+								<elementRef key="catDesc"/>
+								<elementRef key="catEntry"/>
+								<elementRef key="catItem"/>
+								<elementRef key="head"/>
+								<elementRef key="pb"/>
+							</alternate>
+						</content>
+					</elementSpec>
+
+					<elementSpec ident="catalogueItem" module="catalogues">
+						<gloss>catalogue item</gloss>
+						<desc>describes an item in a catalogue entry</desc>
+						<classes>
+							<memberOf key="att.global"/>
+						</classes>
+						<content>
+							<alternate>
+								<!-- <classRef key="model.catalogueDescPart"/> -->
+								<!-- <classRef key="model.global"/>
+							<classRef key="model.ptrLike"/> -->
+								<elementRef key="bibl"/>
+								<elementRef key="condition"/>
+								<elementRef key="desc"/>
+								<elementRef key="dimensions"/>
+								<elementRef key="num"/>
+								<elementRef key="objectType"/>
+								<textNode/>
+							</alternate>
+						</content>
+					</elementSpec>
+
+					<elementSpec ident="num" module="core" mode="change"> </elementSpec>
+
+
+					<!-- DATACATALOGUE TEI CUSTOMIZATION -->
+					<elementSpec ident="body">
+						<content>
+							<alternate>
+								<elementRef key="div"/>
+								<elementRef key="pb"/>
+							</alternate>
+						</content>
+					</elementSpec>
+
+					<elementSpec ident="div">
+						<content>
+							<alternate>
+								<elementRef key="catEntry"/>
+								<elementRef key="div"/>
+								<elementRef key="head"/>
+								<elementRef key="pb"/>
+								<elementRef key="stamp"/>
+							</alternate>
+						</content>
+					</elementSpec>
+
+					<elementSpec ident="titlePage">
+						<content>
+							<alternate>
+								<elementRef key="byline"/>
+								<elementRef key="docTitle"/>
+								<elementRef key="note"/>
+								<elementRef key="stamp"/>
+							</alternate>
+						</content>
+					</elementSpec>
+				</schemaSpec>
+			</div>
+		</body>
+	</text>
+</TEI>
