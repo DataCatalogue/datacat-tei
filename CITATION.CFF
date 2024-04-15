@@ -3,11 +3,14 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Romary"
   given-names: "Laurent"
-  orcid: "https://orcid.org/0000-0002-5659-4675"
+  orcid: "https://orcid.org/0000-0002-0756-0508"
 - family-names: "Scheithauer"
   given-names: "Hugo"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "ODD_sales-catalogues"
+  orcid: "https://orcid.org/0000-0002-5659-4675"
+- family-names: "Bénière"
+  given-names: "Sarah"
+  orcid: "https://orcid.org/0009-0003-1315-9969"
+title: "ODD DataCatalogue"
 version: 1.0.0
 date-released: 2021-12-20
-url: "https://github.com/DataCatalogue/ODD_sales-catalogues"
+url: "https://github.com/DataCatalogue/datacat-tei"
