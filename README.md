@@ -7,6 +7,7 @@ This repository presents the working documents on a customization of the TEI sta
 * **[🪧 NOT UP TO DATE]** The [Examples](https://github.com/DataCatalogue/datacat-tei/tree/main/Examples) folder contains examples of catalogues encoded according to the DataCatalogue customization. 
 * The [ODD](https://github.com/DataCatalogue/datacat-tei/tree/main/ODD) folder contains the TEI customization in the form of an ODD (One Document Does-it-all), with both the documentation and specifications in several formats (``XML``, ``HTML``, ``PDF``, and ``RelaxNG schema``). 
 * The [catalogueElements](https://github.com/DataCatalogue/datacat-tei/tree/main/catalogueElements) folder contains the work in progress on the specifications of three new elements for the description of catalogues (``catalogueDesc``, ``catalogueEntry``, and ``catalogueItem``), based on the groundwork carried out by the [Artl@s Project](https://github.com/katabase/Catalogues) (Université de Genève, ENS - PSL, Purdue University). 
+* [SegmOnto to TEI](https://github.com/DataCatalogue/datacat-tei/blob/main/SegmOnto-to-TEI.md) is a table describing the TEI equivalents to the DataCatalogue SegmOnto classes (see the [Annotation Guide](https://github.com/DataCatalogue/datacat-object-detection-dataset/blob/main/DataCat_AnnotationGuide.md) for further information on the classes). 
 
 
 ## 📜 The DataCatalogue Project
