@@ -20,4 +20,4 @@ We aim at creating an automated workflow for processing digitized sales catalogu
 
 
 ## 📌 Cite this repository
-Bénière, S., Scheithauer, H., & Romary, L. (2024). TEI Customization for Encoding Sales Catalogues. Github. [https://github.com/DataCatalogue/datacat-tei](https://github.com/DataCatalogue/datacat-tei). 
+Bénière, S., Scheithauer, H., Janès, J., & Romary, L. (2024). TEI Customization for Encoding Sales Catalogues. Github. [https://github.com/DataCatalogue/datacat-tei](https://github.com/DataCatalogue/datacat-tei). 
