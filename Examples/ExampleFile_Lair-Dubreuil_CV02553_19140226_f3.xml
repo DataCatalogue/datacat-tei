@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Example of Encoded Title Page from a Sales Catalog</title>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Sarah Bénière</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Institut national d'histoire de l'art</distributor>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier source="https://bibliotheque-numerique.inha.fr/idurl/1/21189">
+						<institution>
+							<orgName>Bibliothèque de l'Institut National d'Histoire de l'Art</orgName>
+						</institution>
+						<collection>Jacques Doucet</collection>
+						<idno>VP 1914/94</idno>
+						<altIdentifier type="digital_ID">
+							<idno>CV02553_19140226</idno>
+						</altIdentifier>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This text was encoded in the context of the DataCatalogue project funded by [...] under
+					the call [...], with grant agreement [...].</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr">French</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-10-16" who="#sarah.beniere">Encoded the file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<titlePage>
+				<docTitle>
+					<titlePart type="main">CATALOGUE <lb/>DES <lb/> TABLEAUX MODERNES</titlePart>
+					<titlePart type="sub">Aquarelles, Pastels, Dessins</titlePart>
+					<titlePart type="artists">Par : <lb/><name>ADAM (NANNY)</name>, <name>ARY SCHEFFER</name>,
+							<name>BACQ DE FOUQUIERES</name>, <name>BRETON (VICTOR)</name>
+						<lb/><name>CARRIER-BELLEUSE (LOUIS)</name>, <name>CARRIER-BELLEUSE (PIERRE)</name>
+						<lb/><name>CASTIGLIONE</name>, <name>DEFAUX</name>, <name>DELPY (H.-C.)</name>,
+							<name>DESVAREUX</name>, <name>DIAZ (N.)</name>
+						<lb/><name>DURAN (CAROLUS)</name>, <name>GARRIDO</name>, <name>GUELDRY</name>,
+							<name>GUILLAUME</name>, <name>HIER (VAN)</name>, <name>HIERLE</name>
+						<lb/><name>INNOCENTI</name>, <name>JANSSENS</name>, <name>LAMBERT</name>, <name>LAMY
+							(EUG.)</name>
+						<lb/><name>LE GOUT-GÉRARD</name>, <name>LELOIR (M.)</name>, <name>MAIOTON</name>,
+							<name>MNISZECH</name>, <name>MOUREN</name>, <name>MURER</name>
+						<lb/><name>PALIZZI</name>, <name>PERBOYRE</name>, <name>PILS</name>,
+							<name>PROTAIS</name>, <name>RIVOIRE</name>, <name>SERGENT</name>
+						<lb/><name>SERRES (ANTONY)</name>, <name>TCHOUMAKOFF</name>, <name>TEN KATE</name>,
+							<name>VALADON</name>, <name>VOLLON</name>, ETC.</titlePart>
+					<titlePart type="sub">GRAVURES</titlePart>
+					<titlePart type="sales_place">Dont la Vente aux Enchères publiques aura lieu
+							<lb/><placeName>HOTEL DROUOT</placeName>, SALLE N°6 <lb/><date>LE JEUDI 26 FÉVRIER
+							1914</date><lb/><time>A deux heures</time></titlePart>
+				</docTitle>
+
+				<byline>PAR LE MINISTÈRE DE <lb/><name>Me F. LAIR-DUBREUIL</name>, COMMISSAIRE-PRISEUR <lb/>
+					<address>
+						<addrLine>6, rue Favart</addrLine>
+					</address>
+				</byline>
+
+				<metamark style="line"/>
+				<titlePart><desc>EXPOSITION PUBLIQUE</desc>
+					<lb/><date>Le Mercredi 25 Février 1914</date>, <time>de 1 heure 1/2 à 6 heures</time>
+				</titlePart>
+			</titlePage>
+		</front>
+		<!-- For validation -->
+		<body>
+			<p/>
+		</body>
+	</text>
+</TEI>
