@@ -65,7 +65,7 @@
 
 
 					<!-- SPECIFICATIONS FOR THE "CATALOGUES" MODULE -->
-					<moduleSpec ident="catalogues">
+					<moduleSpec ident="catalogues" mode="add">
 						<idno>Catalogues</idno>
 						<desc>Additional elements for the description of catalogues</desc>
 					</moduleSpec>
@@ -73,7 +73,7 @@
 					<!-- <classSpec type="model" ident="model.catalogueDescPart" module="catalogues"/> -->
 
 					<!-- NEW "CATALOGUES" ELEMENTS -->
-					<elementSpec ident="catalogueDesc" module="catalogues">
+					<elementSpec ident="catalogueDesc" module="catalogues" mode="add">
 						<gloss>catalogue description</gloss>
 						<desc>provides information about the catalogue entry and the items it
 							contains</desc>
@@ -91,7 +91,7 @@
 						</content>
 					</elementSpec>
 
-					<elementSpec ident="catalogueEntry" module="catalogues">
+					<elementSpec ident="catalogueEntry" module="catalogues" mode="add">
 						<gloss>catalogue entry</gloss>
 						<desc>contains a structured entry in any kind of catalogue, exhibition or
 							sales.</desc>
@@ -114,7 +114,7 @@
 						</content>
 					</elementSpec>
 
-					<elementSpec ident="catalogueItem" module="catalogues">
+					<elementSpec ident="catalogueItem" module="catalogues" mode="add">
 						<gloss>catalogue item</gloss>
 						<desc>describes an item in a catalogue entry</desc>
 						<classes>
