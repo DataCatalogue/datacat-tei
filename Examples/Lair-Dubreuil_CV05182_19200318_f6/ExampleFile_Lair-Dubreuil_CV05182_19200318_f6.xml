@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Example of an Encoded Page from a Sales Catalog</title>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Sarah Bénière</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Institut national d'histoire de l'art</distributor>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier source="https://bibliotheque-numerique.inha.fr/idurl/1/47401">
+						<institution>
+							<orgName>Bibliothèque de l'Institut National d'Histoire de l'Art</orgName>
+						</institution>
+						<collection>Jacques Doucet</collection>
+						<idno>VP 1920/170</idno>
+						<altIdentifier type="digital_ID">
+							<idno>CV05182_19200318</idno>
+						</altIdentifier>
+						<msName>Catalogue des tableaux modernes par J. Bail, N. Berchère, Berne-Bellecour, Frank
+							Boggs, Rosa Bonheur, A. Boulard, Carolus Duran, Chaplin, César de Cook, Daubigny, P.
+							Delaroche, Delpy, E. Deveria, Julien Dupré, Victor Dupré, A. Faivre, L. Fleury,
+							Fortuny, Harpignies, Lebourg, Lépine, Longuet, Meslé, Monticelli, Aimé Morot, J. Noel,
+							J. Palizzi, Protais, Léopold Robert, C. Roqueplan, Ary Scheffer, R.-A. Ulmann, P.
+							Vogler, Ziem, etc., aquarelles, pastels, dessins par E. Isabey, E. Lami, H. Lebasque,
+							Luce, A. de Neuville, T. Ribot, Sebron, Signac, H. Vernet, etc., dont la vente aux
+							enchères publiques aura lieu à Paris, Hôtel Drouot, salle n°1, le jeudi 18 mars 1920,
+							à deux heures</msName>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This text was encoded in the context of the DataCatalogue project funded by [...] under
+					the call [...], with grant agreement [...].</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr">French</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-10-24" who="#sarah.beniere">Encoded the file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="entries">
+				<pb n="6"/>
+				<catalogueEntry>
+					<head>BARAU (Émile)</head>
+					<catalogueItem n="5">
+						<desc>
+							<num>5</num> — Le Chemin devant la ferme. <lb/><objectType>Pastel</objectType>.
+							<lb/>Signé à gauche, en bas : Émile Barau. <lb/>
+							<dimensions>
+								<height>Haut., 41 cent.</height> ; <width>larg., 55 cent.</width>
+							</dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BEAUQUESNE (Wilfrid-Constant)</head>
+					<catalogueItem n="6">
+						<desc>
+							<num>6</num> — Les Dragons royaux ) Rezonville. <lb/>Signé à droite, en bas : W.
+							Beauquesne. <lb/>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BÉNASSIT (Louis-Émile)</head>
+					<catalogueDesc>1833-1902.</catalogueDesc>
+					<catalogueItem n="7">
+						<desc>
+							<num>7</num> — Troupe de cavaliers. <lb/><objectType>Toile</objectType>. <dimensions>
+								<height>Haut., 24 cent.</height> ; <width>larg., 19 cent.</width>
+							</dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BERCHÈRE (Narcisse)</head>
+					<catalogueDesc>1819-1891.</catalogueDesc>
+					<catalogueItem n="8">
+						<desc>
+							<num>8</num> — Campement près de ruines, à Kardabeh (Nubie). <lb/>Signé à droite, en
+							bas : Berchère, 1872. <lb/><objectType>Toile</objectType>. <dimensions><height>Haut.,
+									63 cent.</height> ; <width>larg., 42 cent.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BERCHÈRE (Narcisse)</head>
+					<catalogueItem n="9">
+						<desc>
+							<num>9</num> — Maison à Monfalout (Haute-Égypte). <lb/>Signé à gauche, en bas :
+							Berchère. <lb/><objectType>Toile</objectType>. <dimensions><height>Haut., 62
+									cent.</height>; <width>larg., 42 cent.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BERCHÈRE (Narcisse)</head>
+					<catalogueItem n="10">
+						<desc>
+							<num>10</num> — Cavaliers arrêtés près du temple de Dioclétien-<lb/>Palmyre.
+							<lb/>Signé à droite, en bas : Berchère. <lb/><objectType>Toile</objectType>.
+									<dimensions><height>Haut., 62 cent.</height> ; <width>larg., 42
+								cent.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<pb n="7"/>
+				<catalogueEntry>
+					<head>BERNE-BELLECOUR (Étienne)</head>
+					<catalogueItem n="11">
+						<desc>
+							<num>11</num> — Épisode de la guerre de 1870 : Zouaves tirant <lb/>derrière des
+							arbres. <lb/>Signé à droite, en bas : E. Berne-Bellecour.
+								<lb/><objectType>Panneau</objectType>. <dimensions><height>Haut., 47 cent.</height>
+								; <width>larg., 60 cent.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BONHEUR (Rosa)</head>
+					<catalogueDesc>1822-1899.</catalogueDesc>
+					<catalogueItem n="12">
+						<desc>
+							<num>12</num> — Chevreuil. <lb/>Signé à gauche, en bas : Rosa Bonheur, 1897. <lb/>Au
+							dos, le cachet de la vente de l'artiste. <lb/><objectType>Panneau</objectType>.
+									<dimensions><height>Haut., 24 cent.</height> ; <width>larg., 19
+								cen</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>BOULARD (Auguste)</head>
+					<catalogueDesc>1827-1897.</catalogueDesc>
+					<catalogueItem n="13">
+						<desc>
+							<num>13</num> — Marine ; effet de soleil couchant. <lb/>Signé à droite, en bas : A.
+							Boulard. <lb/>Au dos, une dédicace au crayon. <lb/><objectType>Panneau</objectType>.
+									<dimensions><height>Haut., 36 cent.</height> ; <width>larg., 55
+								cent.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>CAROLUS DURAN</head>
+					<catalogueItem n="14">
+						<desc>
+							<num>14</num> — Jeune Femme blonde. <lb/>Vue jusqu'à mi-poitrine, les cheveux dénoués,
+							les <lb/>épaules couvertes d'une étoffe rouge. <lb/>Signé à gauche, en haut : Carolus
+							Duran. <lb/>
+							<objectType>Toile</objectType>. <dimensions><height>Haut., 56 cent.</height> ;
+									<width>larg., 45 cent.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+				<catalogueEntry>
+					<head>CHAPLIN (Charles)</head>
+					<catalogueItem n="15">
+						<desc>
+							<num>15</num> — Étude de femme nue, étendue et vue de dos.. <lb/>Signé à droite, en
+							haut : Ch. Chaplin. <lb/><objectType>Toile</objectType>. <dimensions><height>Haut., 71
+									cent.</height> ; <width>larg., 1 m. 65.</width></dimensions>
+						</desc>
+					</catalogueItem>
+				</catalogueEntry>
+			</div>
+		</body>
+	</text>
+</TEI>
