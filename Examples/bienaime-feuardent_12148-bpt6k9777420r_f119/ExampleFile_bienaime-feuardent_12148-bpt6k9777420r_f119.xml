@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Example of an Encoded Page from a Sales Catalog</title>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<persName>Sarah Bénière</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<distributor>Bibliothèque nationale de France</distributor>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier source="https://gallica.bnf.fr/ark:/12148/bpt6k9777420r/">
+						<institution>
+							<orgName>Bibliothèque nationale de France</orgName>
+						</institution>
+						<idno type="ark">bpt6k9777420r</idno>
+						<msName>Description de la collection de M. P.-Charles Robert. [Texte imprimé] : 29 mars
+							1886 / Maurice Delestre, commissaire-priseur ; Rollin et Feuardent, expert</msName>
+					</msIdentifier>
+					<history>
+						<origin>
+							<date when-iso="1886">1886</date>
+							<origPlace>Paris</origPlace>
+							<listPerson>
+								<person>
+									<persName>Rollin, Camille</persName>
+									<birth when-iso="1843">1843</birth>
+									<death when-iso="1906">1906</death>
+									<occupation>Expert</occupation>
+								</person>
+								<person>
+									<persName>Feuardent, Félix</persName>
+									<birth when-iso="1819">1819</birth>
+									<death when-iso="1907">1907</death>
+									<occupation>Expert</occupation>
+								</person>
+								<person>
+									<persName>Delestre, Maurice</persName>
+									<birth when-iso="1848">1848</birth>
+									<death when-iso="1931">1931</death>
+									<occupation>Vendeur</occupation>
+								</person>
+							</listPerson>
+						</origin>
+					</history>
+					<physDesc>
+						<p>1 vol. [XIII-48-119-97-80 p., XIII pl.) : ill. ; 26 cm</p>
+					</physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This text was encoded in the context of the DataCatalogue project funded by [...] under
+					the call [...], with grant agreement [...].</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fr">French</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2024-10-17" who="#sarah.beniere">Encoded the file.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			
+			<div>
+				<head>METZ</head>
+				<div>
+					<head>EMPEREURS ET ROIS</head>
+					<catalogueEntry>Lothaire I, empereur</catalogueEntry>
+					<catalogueEntry>Lothaire II, roi</catalogueEntry>
+					<catalogueEntry>Charles le Chauve</catalogueEntry>
+					<catalogueEntry>Henri l'Oiseleur</catalogueEntry>
+					<catalogueEntry>Otton I</catalogueEntry>
+					<catalogueEntry>Otton II?</catalogueEntry>
+				</div>
+			</div>
+			
+			<div>
+				<head>METZ ET DOMAINES EPISCOPAUX</head>
+				<div>
+					<head>EVEQUES</head>
+					<catalogueEntry>
+						<head>SEMI-EPISCOPALES - SEMI-IMPERIALES</head>
+						<catalogueEntry>
+							<head>Adalbéron I et Otton I, empereur (962-964)</head>
+							<catalogueDesc>SANS NOM D'ATELIER</catalogueDesc>
+						</catalogueEntry>
+						<catalogueEntry>
+							<head>Thiéri I et Otton I (964-973)</head>
+							<catalogueDesc> SANS NOM D'ATELIER</catalogueDesc>
+							<catalogueItem n="411"/>
+							<catalogueDesc>ATELIER DE METZ</catalogueDesc>
+							<catalogueItem n="412"/>
+						</catalogueEntry>
+					</catalogueEntry>
+				</div>
+			</div>
+			
+			
+			<div>
+				<pb n="43"/>
+				<head type="running_title">CHAPITRE.</head>
+				<!-- Probably not necessary in the general encoding -->
+				<catalogueItem n="727">
+					<note place="left">15 -</note>
+					<num>727.</num>
+					<desc>Jeton. + SANCTVS • STEPHANVS • PROTOMARTIR. Buste du saint, à <lb/>gauche, la tête
+						nimbée. <lb/>
+						<!-- signe à résoudre -->. * G • D'AVBVSSON • EPVS • MET • CAPIT • ADMI • SEDE • QVASI •
+						VAC. <lb/>Ecu ovale, à la croix ancrée, couronné, posé sur une croix <lb/>et surmonté du
+						chapeau de cardinal; dans le bas, la date 1696. <lb/>De Saulcy, Evêques, n° 102. Jeton
+						frappé pendant la ma-<lb break="no"/>ladie du prélat. Cuiv. B. Gr.</desc>
+				</catalogueItem>
+				<catalogueItem n="728">
+					<note place="left">93 -</note>
+					<num>728.</num>
+					<desc>Jeton. + SANCTVS • STEPHANVS • PROTO MARTIR. Buste du saint à <lb/>gauche, la tête
+						nimbée. <lb/><!-- signe à résoudre -->. + CAPITVLO METEN • ADMINIST • SEDE VACANTE.
+						Cartouche échan-<lb break="no"/>cré avec l'écu ovale du chapitre ; dans le champ, la
+						date 1697. <lb/>De Saulcy, Evêques, n° 103. Jeton frappé après la mort de <lb/>G.
+						d'Aubusson. Ar. F.D.C.</desc>
+				</catalogueItem>
+				<catalogueItem n="729">
+					<note place="left">4 1/2 -</note>
+					<num>729.</num>
+					<desc>Jeton. Mêmes types. Cuiv. B.</desc>
+				</catalogueItem>
+				<catalogueItem n="730">
+					<note place="left">20 -</note>
+					<num>730.</num>
+					<desc>Jeton. + SANCTUS STEPHANVS PROTOMARTIR. Buste du saint à gauche, <lb/>la tête
+						nimbée. <lb/><!-- wigne à résoudre -->. * CAPITULO • METEN • ADMINIST • SEDE VACANTE.
+						Cartouche très <lb/>orné, aux armes du chapitre, accosté des chiffres 17 60. <lb/>De
+						Saulcy, Evêques, n° 104. Jeton frappé après la mort de <lb/>l'évêque de Saint-Simon. Ar.
+						F.D.C.</desc>
+				</catalogueItem>
+				<catalogueEntry>
+					<head>Henri de Haraucourt, chancelier du chapitre</head>
+					<catalogueItem n="731">
+						<note place="left">30 -</note>
+						<num>731.</num> Jeton. + H * DE * HARAVCOVRT * CANC * ET * C * METEN. Ecu à la
+						<lb/>croix, avec un lion dans le premier canton, armes des <lb/>Haraucourt.
+						<lb/><!-- signe à résoudre -->. * HEROVM * CVRIA * COELO. Personnage debout à gauche;
+						dans <lb/>le haut, des nuages. <figure>
+							<legend>Robert, Revue numism., 1884. Unique. Cuiv. F.</legend>
+							<desc><!-- description de l'image -->
+							</desc>
+						</figure>
+					</catalogueItem>
+					<metamark style="line"/>
+				</catalogueEntry>
+			</div>
+		</body>
+	</text>
+</TEI>
